@@ -37,3 +37,11 @@ li {
 #logo {
     height: 1.8rem;
 }
+
+.first-block {
+}
+
+.model {
+    width: calc(70% / 3);
+}
+
