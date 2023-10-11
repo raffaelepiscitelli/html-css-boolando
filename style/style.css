@@ -4,3 +4,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.orange {
+    background-color: rgb(255, 105, 0);
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-section {
+    flex-direction: row;
+}
+
+li {
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#logo {
+    height: 1.8rem;
+}
