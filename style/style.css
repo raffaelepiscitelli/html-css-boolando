@@ -24,10 +24,6 @@ ul {
     justify-content: space-around;
 }
 
-.nav-section {
-    flex-direction: row;
-}
-
 li {
     margin-right: 10px;
     color: white;
@@ -38,10 +34,102 @@ li {
     height: 1.8rem;
 }
 
-.first-block {
+.block {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: center;
 }
 
 .model {
-    width: calc(70% / 3);
+    margin-right: 10px;
+    width: 350px;
+}
+
+.product {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: xx-large;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.black-heart {
+    display: inline;
+}
+
+.red-heart {
+    color:red;
+    display: none;
+}
+
+.like:hover .black-heart {
+    display: none;
+}
+
+.like:hover .red-heart {
+    display: inline;
+}
+
+.sale {
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    font-size: small;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    padding-top: 2px;    
+}
+
+.sustainability {
+    position: absolute;
+    top: 450px;
+    left: 60px;
+    font-size: small;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    padding-top: 2px; 
+}
+
+.no-sale {
+    left: 0px;
+}
+
+.model-hover {
+    display: none;
+}
+
+.product:hover .model-fixed {
+    display: none;
+}
+
+.product:hover .model-hover {
+    display: inline;
+}
+
+.black {
+    background-color: rgb(26, 26, 26);
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.nav-section-footer {
+    flex-direction: row;
 }
 
